@@ -1,0 +1,17 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+:root
+{
+    --white: #f2f5f6;
+    --colorA: #FA87FA;
+    --colorB: #C55CCC;
+    --colorC: #E6D5E8;
+    --colorD: #E466FF;
+    --colorE: #E292FA;
+    --botao-tipo-1: #ffbbbb;
+    --black: #190B1C;
+}
