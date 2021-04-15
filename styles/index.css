@@ -5,6 +5,8 @@
 
     display: flex;
     flex-direction: column;
+
+    background-color: var(--background);
 }
 
 header
@@ -26,6 +28,108 @@ header #buttons
     align-items: center;
 
     padding: 0 5rem 0 0;
-}    
+}
 
-/* Fala */
+.btn
+{
+    height: 2rem;
+    width: 6rem;
+
+    border-radius: 2rem;
+    background-color: var(--white);
+}
+
+#btn-login
+{
+    border: solid 1px blue;
+    color: blue;
+
+    margin: 0 .6rem 0 0;
+}
+
+#btn-register
+{
+    border: solid 1px green;
+    color: green;
+    margin: 0 0 0 .6rem;
+}
+
+#forms
+{
+    height: 40vh;
+    width: 20vw;
+
+    background-color: var(--white);
+
+    position: absolute;
+    top: 18rem;
+    right: 7rem;
+
+    border-radius: 0.5rem;
+}
+
+#form-login
+{
+   background-color: var(--white);
+
+   border-radius: 0.5rem;
+}
+
+#form-register
+{
+    display: none;
+}
+
+.modelForm
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 8vh;
+}
+
+.body-form
+{
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 95%;
+    height: 30vh;
+}
+
+.body-form input
+{
+    height: 1.8rem;
+
+    border: 1px solid var(--border-input);
+    border-radius: 0.3rem;
+}
+
+.body-form label
+{
+    margin: 2rem 0 .4rem 0;
+}
+
+.frm-btn
+{
+    height: 3rem;
+
+    margin: 4rem 0 0 0;
+
+    border: 1px solid blue;
+    border-radius:.5rem;
+
+    color: blue;
+
+    font-weight: bold;
+}
