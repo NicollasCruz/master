@@ -7,46 +7,75 @@
 
     <link rel="stylesheet" href="../styles/global.css">
     <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/class.css">
     <title>TaskList</title>
 </head>
 <body>
     <div id="page-landing">
-        <header>
-            <div id="buttons">
-                <button id="btn-register" class="btn" onclick="openLogin()">Cadastrar</button>
-                <button id="btn-login" class="btn" onclick="openRegister()">Login</button>
-            </div>
-        </header>
-        <div id="page-body">
-            <div id="images">
-                <img src="../images/Caderno.png" alt="Caderninho" width="650px" height="650px">
-            </div>
-            <div id="forms">
-                <div id="form-login" class="modelForm">
-                    <div class="title">
-                        <h1>Login</h1>
-                    </div>
-                    <div class="body-form" id="body-form-login">
-                            <label for="name-register">Digite seu nome de usuário:</label>
-                            <input type="text" id="name-login" name="name-login" placeholder="Nome:">
-                            <label for="password">Digite sua senha:</label>
-                            <input type="text" id="password-login" name="password-login" placeholder="Senha:">
-                            <button id="submit-login" class="frm-btn">Login</button>
-                    </div>
+        <div id="page1" class="page">
+
+            <header>
+                <div id="buttons">
+                    <button id="btn-register" class="btn-primary" onclick="openLogin()">Cadastrar</button>
+                    <button id="btn-login" class="btn-primary" onclick="openRegister()">Login</button>
                 </div>
-                <div id="form-register" class="modelForm">
-                    <div class="title">
-                        <h1>Cadastre-se</h1>
-                    </div>
-                    <div class="body-form" id="body-form-register">
-                            <label for="name-register">Digite seu nome de usuário:</label>
-                            <input type="text" id="name-register" name="name-register" placeholder="Nome:">
-                            <label for="password-register">Cadastre uma senha:</label>
-                            <input type="text" id="password-register" name="password-register" placeholder="Senha:">
-                            <button id="submit-register" class="frm-btn">Registrar</button>
-                    </div>
+            </header>
+
+            <div class="page-body">
+
+                <div class="images">
+                    <img src="../images/Caderno.png" alt="Caderninho" width="650px" height="650px">
                 </div>
+
+                <div id="forms-area">
+
+                    <div id="form-login" class="modelForm">
+
+                        <div class="title">
+                            <h1>Login</h1>
+                        </div>
+
+                        <div class="body-form" id="body-form-login">
+
+                                <label for="name-register">Digite seu nome de usuário:</label>
+                                <input type="text" id="name-login" class="form-input" name="name-login" placeholder="Nome:">
+
+                                <label for="password">Digite sua senha:</label>
+                                <input type="text" id="password-login" class="form-input" name="password-login" placeholder="Senha:">
+
+                                <button id="submit-login" class="frm-btn">Login</button>
+
+                        </div>
+
+                    </div>
+
+                    <div id="form-register" class="modelForm">
+
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+    
+                        <div class="body-form" id="body-form-register">
+    
+                                <label for="name-register">Digite seu nome de usuário:</label>
+                                <input type="text" id="name-register" class="form-input" name="name-register" placeholder="Nome:">
+    
+                                <label for="email-register">Digite seu e-mail:</label>
+                                <input type="text" id="email-register" class="form-input" name="email-register" placeholder="Nome:">
+    
+                                <label for="password-register">Cadastre uma senha:</label>
+                                <input type="text" id="password-register" class="form-input" name="password-register" placeholder="Senha:">
+    
+                                <button id="submit-register" class="frm-btn">Registrar</button>
+    
+                        </div>
+    
+                    </div>
+
+                </div>
+
             </div>
+            
         </div>
     </div>
 

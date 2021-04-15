@@ -1,11 +1,5 @@
-#page-landing
+#page1
 {
-    width: 100vw;
-    height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-
     background-color: var(--colorA);
 }
 
@@ -30,24 +24,6 @@ header #buttons
     padding: 0 7rem 0 0;
 }
 
-#images
-{
-    position: absolute;
-    top: 11rem;
-    left: 25rem;
-}
-
-.btn
-{
-    height: 2.5rem;
-    width: 7rem;
-
-    border-radius: 2rem;
-    background-color: var(--white);
-
-    outline: none;
-}
-
 #btn-login
 {
     border: solid 1px blue;
@@ -63,7 +39,7 @@ header #buttons
     margin: 0 1rem 0 0;
 }
 
-#forms
+#forms-area
 {
     height: 40vh;
     width: 20vw;
@@ -77,73 +53,19 @@ header #buttons
     border-radius: 0.5rem;
 }
 
-#form-login
-{
-   background-color: var(--white);
-
-   border-radius: 0.5rem;
-
-   display: none;
-}
-
 #form-register
 {
-    background-color: var(--white);
-
-   border-radius: 0.5rem;
-
-   display: flex;
+    display: none;
 }
 
-.modelForm
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.title
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 100%;
-    height: 8vh;
-}
-
-.body-form
-{
-    display: flex;
-    flex-direction: column;
-    
-    
-    width: 95%;
-    height: 30vh;
-}
-
-.body-form input
-{
-    height: 1.8rem;
-
-    border: 1px solid var(--border-input);
-    border-radius: 0.3rem;
-}
-
-.body-form label
+#body-form-login label
 {
     margin: 2rem 0 .4rem 0;
 }
 
-.frm-btn
+#body-form-register label
 {
-    height: 3rem;
-
-    margin: 4rem 0 0 0;
-
-    border-radius:.5rem;
-
-    font-weight: bold;
+    margin: 1rem 0 .4rem 0;
 }
 
 #submit-register
@@ -151,6 +73,8 @@ header #buttons
     border: 1px solid green;
 
     color: green;
+
+    margin: 2rem 0 0 0;
 }
 
 #submit-login
@@ -158,4 +82,6 @@ header #buttons
     border: 1px solid blue;
 
     color: blue;
+
+    margin: 4rem 0 0 0;
 }
