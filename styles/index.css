@@ -1,7 +1,7 @@
 html
 {
     scroll-snap-type: y mandatory;
-    scrool-behavior: smooth;
+    scroll-behavior: smooth;
 
     display: flex;
     flex-direction: column;
