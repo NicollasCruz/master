@@ -11,15 +11,20 @@
     <title>TaskList</title>
 </head>
 <body>
+
+    <header>
+        <div id="logo">
+            <img src="../images/notebook-svgrepo-com.svg" alt="Logo" height="50px" width="50px">
+        </div>
+
+        <div id="buttons">
+            <a href="#page1"><button id="btn-register" class="btn-primary" onclick="openLogin()">Cadastrar</button></a>
+            <a href="#page1"><button id="btn-login" class="btn-primary" onclick="openRegister()">Login</button></a>
+        </div>
+    </header>
+    
     <div id="page-landing">
         <div id="page1" class="page">
-
-            <header>
-                <div id="buttons">
-                    <button id="btn-register" class="btn-primary" onclick="openLogin()">Cadastrar</button>
-                    <button id="btn-login" class="btn-primary" onclick="openRegister()">Login</button>
-                </div>
-            </header>
 
             <div class="page-body">
 
@@ -76,6 +81,12 @@
 
             </div>
             
+        </div>
+        <div id="page2" class="page">
+            <h1>Teste</h1>
+        </div>
+        <div id="page3" class="page">
+            <h1>Teste</h1>
         </div>
     </div>
 

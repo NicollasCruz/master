@@ -1,6 +1,29 @@
+html
+{
+    scroll-snap-type: y mandatory;
+    scrool-behavior: smooth;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#page-landing{
+    height: 300vh;
+  }
+
 #page1
 {
     background-color: var(--colorA);
+}
+
+#page2
+{
+    background-color: chartreuse;
+}
+
+#page3
+{
+    background-color: coral;
 }
 
 header
@@ -10,6 +33,20 @@ header
 
     display: flex;
     justify-content: flex-end;
+
+    background-color: var(--colorB);
+
+    position: fixed;
+
+    z-index: 100;
+}
+
+#logo
+{
+    position: absolute;
+
+    top: .5rem;
+    left: 2rem;
 }
 
 header #buttons
