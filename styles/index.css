@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
 
-    background-color: var(--background);
+    background-color: var(--colorA);
 }
 
 header
@@ -27,7 +27,7 @@ header #buttons
     justify-content: space-between;
     align-items: center;
 
-    padding: 0 5rem 0 0;
+    padding: 0 7rem 0 0;
 }
 
 #images
@@ -39,11 +39,13 @@ header #buttons
 
 .btn
 {
-    height: 2rem;
-    width: 6rem;
+    height: 2.5rem;
+    width: 7rem;
 
     border-radius: 2rem;
     background-color: var(--white);
+
+    outline: none;
 }
 
 #btn-login
@@ -51,14 +53,14 @@ header #buttons
     border: solid 1px blue;
     color: blue;
 
-    margin: 0 .6rem 0 0;
+    margin: 0 0 0 1rem;
 }
 
 #btn-register
 {
     border: solid 1px green;
     color: green;
-    margin: 0 0 0 .6rem;
+    margin: 0 1rem 0 0;
 }
 
 #forms
@@ -80,11 +82,17 @@ header #buttons
    background-color: var(--white);
 
    border-radius: 0.5rem;
+
+   display: none;
 }
 
 #form-register
 {
-    display: none;
+    background-color: var(--white);
+
+   border-radius: 0.5rem;
+
+   display: flex;
 }
 
 .modelForm
@@ -133,10 +141,21 @@ header #buttons
 
     margin: 4rem 0 0 0;
 
-    border: 1px solid blue;
     border-radius:.5rem;
 
-    color: blue;
-
     font-weight: bold;
+}
+
+#submit-register
+{
+    border: 1px solid green;
+
+    color: green;
+}
+
+#submit-login
+{
+    border: 1px solid blue;
+
+    color: blue;
 }

@@ -13,8 +13,8 @@
     <div id="page-landing">
         <header>
             <div id="buttons">
-                <button id="btn-register" class="btn">Cadastrar</button>
-                <button id="btn-login" class="btn">Login</button>
+                <button id="btn-register" class="btn" onclick="openLogin()">Cadastrar</button>
+                <button id="btn-login" class="btn" onclick="openRegister()">Login</button>
             </div>
         </header>
         <div id="page-body">
@@ -27,7 +27,7 @@
                         <h1>Login</h1>
                     </div>
                     <div class="body-form" id="body-form-login">
-                            <label for="name-register">Digite seu nome:</label>
+                            <label for="name-register">Digite seu nome de usuário:</label>
                             <input type="text" id="name-login" name="name-login" placeholder="Nome:">
                             <label for="password">Digite sua senha:</label>
                             <input type="text" id="password-login" name="password-login" placeholder="Senha:">
@@ -39,15 +39,17 @@
                         <h1>Cadastre-se</h1>
                     </div>
                     <div class="body-form" id="body-form-register">
-                            <label for="name-register">Digite seu nome:</label>
+                            <label for="name-register">Digite seu nome de usuário:</label>
                             <input type="text" id="name-register" name="name-register" placeholder="Nome:">
-                            <label for="password-register">Digite sua senha:</label>
+                            <label for="password-register">Cadastre uma senha:</label>
                             <input type="text" id="password-register" name="password-register" placeholder="Senha:">
-                            <button id="submit-login" class="frm-btn">Login</button>
+                            <button id="submit-register" class="frm-btn">Registrar</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script type="text/javascript" src="../scripts/index.js"></script>
 </body>
 </html>
