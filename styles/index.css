@@ -30,8 +30,6 @@ header #buttons
     color: var(--white);
 
     background-color: blue;
-
-    margin: 0 1rem 0 0;
 }
 
 #btn-register
