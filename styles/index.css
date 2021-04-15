@@ -30,6 +30,13 @@ header #buttons
     padding: 0 5rem 0 0;
 }
 
+#images
+{
+    position: absolute;
+    top: 11rem;
+    left: 25rem;
+}
+
 .btn
 {
     height: 2rem;
