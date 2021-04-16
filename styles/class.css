@@ -109,7 +109,7 @@
 
 .frm-btn:hover
 {
-    background-color: var(--colorF);
+    transform: scale(1.04);
 
     font-size: 1.2rem;
 }

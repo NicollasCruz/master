@@ -8,24 +8,13 @@ html
 }
 
 #page-landing{
-    height: 300vh;
+    height: 100vh;
   }
 
 #page1
 {
     background-color: var(--white);
 }
-
-#page2
-{
-    background-color: chartreuse;
-}
-
-#page3
-{
-    background-color: coral;
-}
-
 header
 {
     width: 100vw;
