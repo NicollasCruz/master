@@ -13,7 +13,7 @@ html
 
 #page1
 {
-    background-color: var(--colorA);
+    background-color: var(--white);
 }
 
 #page2
@@ -63,34 +63,42 @@ header #buttons
 
 #btn-login
 {
-    border: none;
-    color: var(--white);
+    border: blue;
+    color: blue;
 
-    background-color: blue;
+    background-color: var(--white);
 }
 
 #btn-register
 {
-    border: none;
-    color: var(--white);
+    border: green;
+    color: green;
 
-    background-color: green;
+    background-color: var(--white);
 
     margin: 0 0 0 3rem;
 }
 
+#text-box
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: var(--colorB)
+}
+
 #forms-area
 {
-    height: 40vh;
-    width: 20vw;
+    height: 50vh;
+    width: 25vw;
 
-    background-color: var(--white);
+    background-color: var(--colorA);
 
     position: absolute;
     top: 18rem;
     right: 7rem;
 
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 
 #form-register
@@ -100,12 +108,14 @@ header #buttons
 
 #body-form-login label
 {
-    margin: 2rem 0 .4rem 0;
+    margin: 3rem 0 .5rem 0;
+    color: var(--white);
 }
 
 #body-form-register label
 {
-    margin: 1rem 0 .4rem 0;
+    margin: 1.8rem 0 .6rem 0;
+    color: var(--white);
 }
 
 #submit-register
@@ -114,8 +124,11 @@ header #buttons
 
     color: green;
 
-    margin: 2rem 0 0 0;
+    margin: 3rem 0 0 0;
+
 }
+
+
 
 #submit-login
 {

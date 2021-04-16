@@ -9,11 +9,21 @@
     scroll-snap-align: end;
 }
 
+.text-box
+{
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+
+    height: 10vh;
+    width: 30vw;
+}
+
 .images
 {
     position: absolute;
     top: 11rem;
-    left: 25rem;
+    left: 32rem;
 }
 
 .btn-primary
@@ -25,6 +35,20 @@
     background-color: var(--white);
 
     outline: none;
+
+    transition: all .5s ease-in-out;
+
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.btn-primary:hover
+{
+    transform: scale(1.15);
+
+    font-weight: 500;
+
+    background-color: var(--background);
 }
 
 .modelForm
@@ -33,9 +57,9 @@
     flex-direction: column;
     align-items: center;
 
-    background-color: var(--white);
+    background-color: var(--colorA);
 
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 
 .title
@@ -46,6 +70,8 @@
 
     width: 100%;
     height: 8vh;
+
+    color: var(--white);
 }
 
 .body-form
@@ -55,15 +81,15 @@
     
     
     width: 95%;
-    height: 30vh;
+    height: 40vh;
 }
 
 .form-input
 {
-    height: 1.8rem;
+    height: 2rem;
 
     border: 1px solid var(--border-input);
-    border-radius: 0.3rem;
+    border-radius: 0.5rem;
 }
 
 .frm-btn
@@ -73,4 +99,17 @@
     border-radius:.5rem;
 
     font-weight: bold;
+
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+
+    transition: all .5s ease;
+
+}
+
+.frm-btn:hover
+{
+    background-color: var(--colorF);
+
+    font-size: 1.2rem;
 }
