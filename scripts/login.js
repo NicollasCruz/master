@@ -7,12 +7,14 @@ function sendLogin()
                 name: name,
                 password: password
         }
-
+        console.log(user);
+        let json = JSON.stringify(user);
+        console.log(json);
         let url = '../backend/login.php';
 
         fetch(url, {
             method: 'POST',
-            body: user
+            body: json
         })
         .then((data) => {
             return data.text();
