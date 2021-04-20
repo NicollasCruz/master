@@ -14,12 +14,13 @@ function sendLogin()
 
         fetch(url, {
             method: 'POST',
-            body: json
+            body: json,
+            headers: {"Content-type": "application/json; charset=UTF-8"}
         })
-        .then((data) => {
-            return data.text();
-        }).then((text) => {
-            console.log(text);
+        .then((res) => {
+            return res.json();
+        }).then((json) => {
+            console.log(json);
         })
 }
 
