@@ -16,12 +16,10 @@
     if(!$link){
         die("erro".mysqli_connect_error());
     }
+
     mysqli_select_db($db_name) or die("erro".mysqli_connect_error());
-
     $filtro = 'SELECT name, password FROM usuario WHERE name="$name" AND password="$password"';
-
     $resultado = mysqli_query($link, $filtro);
-
     $linhas = mysqli_num_rows($resultado);
 
     if($linhas = 1)
