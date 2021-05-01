@@ -25,17 +25,3 @@ function sendLogin()
         document.querySelector("#password-login").value = '';
 }
 
-function sendRegister()
-{
-        let name = document.querySelector("#name-register").value;
-        let email = document.querySelector("#email-register").value;
-        let password = document.querySelector("#password-register").value;
-
-        let user = {
-                name: name,
-                email: email,
-                password: password
-        }
-
-        console.log(user);
-}
