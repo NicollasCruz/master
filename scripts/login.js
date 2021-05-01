@@ -7,9 +7,7 @@ function sendLogin()
                 name: name,
                 password: password
         }
-        console.log(user);
         let json = JSON.stringify(user);
-        console.log(json);
         let url = '../backend/login.php';
 
         fetch(url, {
@@ -18,7 +16,7 @@ function sendLogin()
             headers: {"Content-type": "application/json; charset=UTF-8"}
         })
         .then((res) => {
-            return res.json();
+            return res.text();
         }).then((json) => {
             console.log(json);
         })
