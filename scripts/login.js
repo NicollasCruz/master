@@ -20,6 +20,9 @@ function sendLogin()
         }).then((json) => {
             console.log(json);
         })
+
+        document.querySelector("#name-login").value = '';
+        document.querySelector("#password-login").value = '';
 }
 
 function sendRegister()
