@@ -1,14 +1,16 @@
-function sendLogin()
+function sendRegister()
 {
-        let name = document.querySelector("#name-login").value;
-        let password = document.querySelector("#password-login").value;
+        let name = document.querySelector("#name-register").value;
+        let email = document.querySelector("#email-register").value;
+        let password = document.querySelector("#password-register").value;
 
         let user = {
                 name: name,
+                email: email,
                 password: password
         }
         let json = JSON.stringify(user);
-        let url = '../backend/login.php';
+        let url = '../backend/register.php';
 
         fetch(url, {
             method: 'POST',
@@ -22,6 +24,7 @@ function sendLogin()
         })
 
         document.querySelector("#name-login").value = '';
+        document.querySelector("#email-register").value = '';
         document.querySelector("#password-login").value = '';
 }
 
