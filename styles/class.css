@@ -113,3 +113,8 @@
 
     font-size: 1.2rem;
 }
+
+.grid-container
+{
+    border: 1px solid #c4c4c4;
+}

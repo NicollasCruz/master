@@ -5,11 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/class.css">
+    <link rel="stylesheet" href="../styles/tasks.css">
+    <link rel="stylesheet" href="../styles/modal.css">
+
     <link rel="shortcut icon" href="../images/notebook-svgrepo-com.svg" type="image/x-icon">
+
+    <script type="text/javascript" src="../scripts/tarefas.js"></script>
     
     <title>TaskList</title>
 </head>
 <body>
-    
+    <header>
+        <div id="logo">
+            <img src="../images/notebook-svgrepo-com.svg" alt="Logo" height="50px" width="50px">
+        </div>
+
+        <div id="buttons">
+            <button id="addTask" class="btn-primary" onclick="addTask()">Adicionar tarefa</button>
+        </div>
+    </header>
+    <div id="main">
+        <div id="today" class="grid-container">
+            <p>Teste</p>
+        </div>
+        <div id="tomorrow" class="grid-container">
+
+        </div>
+        <div id="thisweek"class="grid-container">
+
+        </div>
+        <div id="overcoming"class="grid-container">
+
+        </div>
+    </div>
+    <div id="modal">
+        <img src="../images/x.svg" alt="close" id="close-modal">
+        <div id="task_title">
+            <input type="text" id="titulo-tarefa" value="Tarefa 001">
+        </div>
+        <div id="datas">
+            <div i d="data-ini" class="data">
+            <label for="data-inicio">Data de inicio:</label>
+            <input type="date" id="data-inicio">
+        </div>
+        <div id-"data-fim" class="data">
+            <label for="data-conclusao">Data de conclusão:</label>
+            <input type="date" id="data-conclusao">
+        </div>
+        </div>
+        <div id="descricao">
+            <label for="description">Description:</label>
+            <input type="text" id="descricaodescription">
+        </div>
+        <div id="comentarios-area">
+            <h2>Comentários:</h2>
+            <input type="text" id="comentarios" class="fcol-2">
+            <hr>
+            <div id="carregar-comentarios"></div>
+        </div>
+    </div>
 </body>
 </html>

@@ -32,11 +32,11 @@
     {
         if($result == 1)
         {
-            return 'Login successfully';
+            return 1;
         }
         else
         {
-            return 'Login failed';
+            return 0;
         }
     }
 

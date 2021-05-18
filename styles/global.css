@@ -21,3 +21,45 @@
     --background: #dfdfdf;
     --border-input: #c4c4c4;
 }
+
+header
+{
+    width: 100vw;
+    height: 6.5vh;
+
+    display: flex;
+    justify-content: flex-end;
+
+    background-color: var(--colorB);
+
+    position: fixed;
+
+    top: 0rem;
+
+    z-index: 99;
+}
+
+#logo
+{
+    position: absolute;
+
+    top: .5rem;
+    left: 2rem;
+}
+
+header #buttons
+{
+    width: 20vw;
+    height: 6.5vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 7rem 0 0;
+}
+
+::-webkit-scrollbar
+{
+    display: none;
+}

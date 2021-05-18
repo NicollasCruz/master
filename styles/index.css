@@ -15,40 +15,6 @@ html
 {
     background-color: var(--white);
 }
-header
-{
-    width: 100vw;
-    height: 6.5vh;
-
-    display: flex;
-    justify-content: flex-end;
-
-    background-color: var(--colorB);
-
-    position: fixed;
-
-    z-index: 100;
-}
-
-#logo
-{
-    position: absolute;
-
-    top: .5rem;
-    left: 2rem;
-}
-
-header #buttons
-{
-    width: 20vw;
-    height: 6.5vh;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 0 7rem 0 0;
-}
 
 #btn-login
 {

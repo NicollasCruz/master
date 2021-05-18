@@ -34,7 +34,11 @@ function sendLogin()
         .then((res) => {
             return res.text();
         }).then((res) => {
-            console.log(res);
+            let resposta = res;
+            if(res == 1)
+            window.location.href = "tasklist.html";
+            else
+            alert("Senha incorreta!!");
         })
 
         document.querySelector("#name-login").value = '';

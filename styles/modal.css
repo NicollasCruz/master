@@ -1,0 +1,127 @@
+#modal
+{
+    height: 95vh;
+    width: 60%;
+
+    position: absolute;
+    top: 1rem;
+    left: 20%;
+    z-index: 100;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--white);
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+
+    overflow: scroll;
+
+    border-radius: .5rem;
+}
+
+#close-modal:hover
+{
+    border: 1px solid var(--border-input);
+    border-radius: .2rem;
+
+    background-color: var(--border-input);
+
+    transform: scale(1.2);
+
+    transition: all .3s ease;
+}
+
+#close-modal
+{
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+}
+
+#task_title
+{
+    width: 98%;
+    height: 3rem;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 3rem;
+}
+
+#task_title input
+{
+    width: 100%;
+    height: 2rem;
+
+    border-radius: .5rem;
+}
+
+#datas
+{
+    width:80%;
+    height: 4rem;
+
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.data
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.data input
+{
+    height: 2rem;
+    width: 15rem;
+
+    border-radius: .5rem;
+}
+
+#descricao
+{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1rem;
+
+    width: 98%;
+    height: 15rem;
+}
+
+#descricao input
+{
+    height: 100%;
+
+    border-radius: .5rem;
+}
+
+#comentarios-area
+{
+    margin-top: 2rem;
+
+    width: 90%;
+}
+
+#comentarios-area input
+{
+    width: 100%;
+    height: 4rem;
+
+    border-radius: .5rem;
+}
+
+#carregar-comentarios
+{
+    width: 98%;
+
+    display: flex;
+    flex-direction: column;
+}
