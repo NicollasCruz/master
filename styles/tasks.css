@@ -12,3 +12,11 @@
 
     overflow: scroll;
 }
+
+.prazo-title
+{
+    position: relative;
+
+    top: -4rem;
+    left: 2rem;
+}

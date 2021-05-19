@@ -1,11 +1,11 @@
 #modal
 {
     height: 95vh;
-    width: 60%;
+    width: 50%;
 
     position: absolute;
     top: 1rem;
-    left: 20%;
+    left: 25%;
     z-index: 100;
 
     display: none;
@@ -37,8 +37,8 @@
 #close-modal
 {
     position: absolute;
-    top: .5rem;
-    right: .5rem;
+    top: 1rem;
+    right: 1rem;
 }
 
 #task_title
@@ -49,7 +49,7 @@
     display: flex;
     justify-content: center;
 
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 #task_title input
@@ -120,8 +120,39 @@
 
 #carregar-comentarios
 {
-    width: 98%;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
+
+    margin-top: 3rem;
+
+    min-height: 2rem;
+
+    border: 1px solid var(--border-input);
+    border-radius: .2rem;
+}
+
+#modal #buttons
+{
+    width: 50%;
+
+    margin-top: 10rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#salvar
+{
+    border-color: blue;
+
+    color: blue;
+}
+
+#apagar
+{
+    border-color: red;
+
+    color: red;
 }
